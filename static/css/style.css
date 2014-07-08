@@ -1,24 +1,28 @@
 .header{
-	font-size: 200px;
+	font-size: 15vw;
 	font-family: 'Source Sans Pro', 'sans-serif';
-  margin-left:15%;
+  display: inline-block;
+}
+.container{
+  margin: 0 auto;
+  width: 70%;
+  margin-top:10%;
+  margin-bottom:10%;
 }
 
-nav {
-  margin-bottom: 50px;
-  font-size: 45px;
+ul{
+  list-style-type: none;
+}
+
+nav { 
+  font-size: 3vw;
   font-family: 'Source Sans Pro', 'sans-serif';
-  width: 200px;
-  float: right;
-  margin-top: -215px;
- margin-right: 370px;
+  display: inline-block;
 }
 
 nav a {
-  margin-bottom:-20px;
   text-decoration: none;
   color: black;
-  display: block;
 }
 
 nav a:hover {
@@ -26,4 +30,6 @@ nav a:hover {
   font-weight: bold;
   text-decoration: none;
 }
+
+
 
