@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  <link rel="shortcut icon" type="image/png" href="/profilepic.jpg"/>
+
+    <body>
+    <div class="page-content">
+      <div class="wrap">
+        <div class="container">
+          {{ content }}
+          {% assign current = page.url | downcase | split: '/' %}
+        <div class="nav">
+          <a href="/about" {% if current[1] == 'about' %}class='navlinks_active'{% endif %} class="navlinks">about</a>
+          <a href="/blog" {% if current[1] == 'blog' %}class='navlinks_active'{% endif %} class="navlinks">blog</a>
+          <a href="/contact" {% if current[1] == 'contact' %}class='navlinks_active'{% endif %} class="navlinks">contact</a>
+       </div>
+     </div>
+        </div>
+    </div>
+    </body>
+</html>

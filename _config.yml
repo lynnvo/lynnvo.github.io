@@ -1,0 +1,12 @@
+# Site settings
+title: Lynn Vo
+email: lynnhuvo@gmail.com
+description: "Lynn Vo, student and developer."
+baseurl: ""
+url: "lynnvo.com"
+twitter_username: lynnnhuvo
+github_username:  lynnvo
+
+# Build settings
+markdown: kramdown
+permalink: pretty
