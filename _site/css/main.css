@@ -134,14 +134,17 @@ a:hover .fa{
   .left{
     max-width:470px;
     margin-top:80px;
+    padding-left:30px;
   }
 
   .leftblog{
-    max-width: 470px;
+    max-width: 460px;
+    padding-left:30px;
   }
 
   .page{
     font-size:10vw;
+    padding-left:30px;
   }
 
   .blogtitle{
