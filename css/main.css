@@ -3,21 +3,11 @@
   margin: auto;
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
-  background-color: green;
+/*  background-color: green;*/
   width: 100%;
   max-width: 660px;
   margin: auto;
 }
-
-/*.anchor {
-  background-color: red;
-  position: relative;
-  position:absolute;
-  left:0px;
-  right:0px;
-  max-width: 600px;
-  margin: auto;
-}*/
 
 .title {
   position: absolute;
@@ -112,8 +102,53 @@ a:hover .fa{
   color:#444;;
 }
 
+a:hover .fa{
+  color:#444;;
+}
+
 .contacticons{
   width:50%;
   margin:0 auto;
 }
 
+/*Responsive for most phones! */
+@media (max-width: 480px) {
+  .title {
+    top:-200px;
+    font-size: 30vw;
+    position:absolute;
+  }
+
+  .container {
+    max-width: 480px;
+    margin: auto;
+  }
+
+  .nav {
+    position:relative;
+    right: 0px;
+    left:35%;
+    top:-300px;
+  }
+
+  .left{
+    max-width:470px;
+    margin-top:80px;
+  }
+
+  .leftblog{
+    max-width: 470px;
+  }
+
+  .page{
+    font-size:10vw;
+  }
+
+  .blogtitle{
+    margin: 80px 0px 30px -30px;
+  }
+
+  .contacticons{
+    width:65%;
+  }
+}
